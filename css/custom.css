@@ -1,0 +1,378 @@
+* {
+	font-family: 'Times New Roman';
+	color: #193a00;
+}
+
+body {
+	background: #fdf9d9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #193a00;
+	margin-top: 0;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+a {
+	color: #5bc100;
+	text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+	color: #193a00;
+	text-decoration: none;
+}
+
+.simple-button {
+	display: inline-block;
+	padding: 5px 10px;
+	background: #5bc100;
+	border: none;
+	color: #193a00;
+}
+
+.simple-button:hover,
+.simple-button:focus {
+	background: #193a00;
+	color: #ecd301;
+	text-decoration: none;
+}
+
+.row .row {
+	padding: 0;
+}
+
+/* Header */
+
+header.container {
+	margin-bottom: 15px;
+}
+
+header.container .row .row {
+	margin-bottom: 0;
+}
+
+header.container .header-side-picture {
+	overflow: hidden;
+}
+
+header.container .header-side-picture img {
+	height: 140px;
+}
+
+header.container .header-logo {
+	text-align: center;
+	padding: 25px;
+}
+
+header.container table.login-form {
+	margin-top: 25px;
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 5px;
+	float: right;
+}
+
+header.container table.login-form input {
+	width: 100%;
+}
+
+header.container table.login-form  button#submit {
+	max-width: 100%;
+	font-weight: bold;
+	padding: 3px 10px;
+}
+
+header.container nav.navbar-header {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+header.container nav.navbar-collapse {
+	padding: 0;
+}
+
+header.container nav > ul.nav {
+	background: #f52700;
+	padding: 0;
+}
+
+header.container nav > ul.nav > li {
+	border-radius: 0;
+	background: transparent;
+	margin: 0;
+}
+
+header.container nav > ul.nav > li > a {
+	color: #0f2300;
+	text-decoration: none;
+	margin: 0;
+}
+
+header.container nav > ul.nav > li > a:hover,
+header.container nav > ul.nav > li > a:focus,
+header.container nav > ul.nav > li.open > a,
+header.container nav > ul.nav > li > a.active {
+	color: #0f2300;
+	text-decoration: none;
+	border-radius: 0;
+	background: #ecd301;
+	cursor: pointer;
+}
+
+header.container nav > ul.nav > li > ul.dropdown-menu {
+	background: #f52700;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	min-width: 100%;
+}
+
+header.container nav > ul.nav > li.open > ul.dropdown-menu > li > a {
+	color: #0f2300;
+	text-decoration: none;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+
+header.container nav > ul.nav > li.open > ul.dropdown-menu > li > a:hover,
+header.container nav > ul.nav > li.open > ul.dropdown-menu > li > a:focus,
+header.container nav > ul.nav > li.open > ul.dropdown-menu > li > a.active {
+	color: #0f2300;
+	text-decoration: none;
+	border-radius: 0;
+	background: #ecd301;
+	cursor: pointer;
+}
+
+header.container nav > .navbar-toggle > .icon-bar {
+	background: #5bc100;
+}
+
+/* End of Header */
+
+/* Content */
+
+article.content {
+	margin-bottom: 15px;
+}
+
+article.content .row {
+	margin-bottom: 15px;
+}
+
+article.content .page-title {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+article.content .page-title h1 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+article.content .page-title img {
+	max-width: 100%;
+}
+
+/* Index.html */
+
+article.content article.homepage-article .article-picture {
+	text-align: center;
+}
+
+article.content article.homepage-article .article-picture img {
+	width: 100%;
+	max-width: 290px;
+}
+
+article.content table#registration-form {
+	margin: 0 auto;
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+
+article.content table#registration-form * {
+	vertical-align: top;
+}
+
+article.content table#registration-form textarea{
+	width: 100%;
+	resize: vertical;
+}
+
+article.content table#registration-form button{
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+}
+
+/* End of Index.html */
+
+/* Jelovnik.html */
+
+article.content table.menu-table {
+	width: 90%;
+	margin: 0 auto 15px;
+	max-width: 400px;
+}
+
+article.content table.menu-table thead th {
+	vertical-align: middle;
+}
+
+article.content table.menu-table thead h2 {
+	margin-bottom: 0;
+}
+
+article.content table.menu-table thead th:last-of-type {
+	width: 45%;
+	text-align: right;
+}
+
+article.content table.menu-table thead img {
+	max-width: 100%;
+}
+
+article.content table.menu-table thead:after {
+	content: '';
+	display: block;
+	height: 15px;
+}
+
+article.content table.menu-table tbody {
+	border-top: 2px solid #5bc100;
+	border-bottom: 2px solid #5bc100;
+}
+
+article.content table.menu-table tbody tr {
+	border-bottom: 1px solid #5bc100;
+}
+
+article.content table.menu-table tbody tr:last-of-type {
+	border-bottom: none;
+}
+
+article.content table.menu-table tbody tr:hover,
+article.content table.menu-table tbody tr:focus {
+	background: rgba(245, 39, 0, 0.1);
+}
+
+article.content table.menu-table tbody td {
+	padding: 2px 5px;
+}
+
+article.content table.menu-table tbody td:last-of-type {
+	text-align: right;
+}
+
+/* End of Jelovnik.html */
+
+/* O_jelima.html */
+
+/* End of O_jelima.html */
+
+/* Rezervacije.html */
+
+article.content table#reservationTable {
+	width: 100%;
+}
+
+article.content table#reservationTable input {
+	width: 100%;
+}
+
+article.content #table-choosing {
+	position: relative;
+}
+
+article.content #table-choosing img {
+	width: 100%;
+}
+
+/* End of Rezervacije.html */
+
+/* O_nama.html */
+
+article.content .about-us-picture img {
+	width: 100%;
+}
+
+article.content table.about-us-table {
+	width: 100%;
+}
+
+article.content table.about-us-table tr {
+	border-bottom: 1px solid #5bc100;
+}
+
+article.content table.about-us-table tr:last-of-type {
+	border-bottom: none;
+}
+
+article.content table.about-us-table td {
+	vertical-align: top;
+	padding: 2px 5px;
+}
+
+/* End of O_nama.html */
+
+/* Kontakt.html */
+
+
+article.content table#email-form {
+	margin: 0 auto;
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+
+article.content table#email-form * {
+	vertical-align: top;
+}
+
+article.content table#email-form textarea{
+	width: 100%;
+	resize: vertical;
+	min-height: 110px;
+}
+
+article.content table#emial-form button{
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+/* End of Kontakt.html */
+
+/* End of Content */
+
+/* Footer */
+
+footer {
+	text-align: center;
+	padding: 20px;
+}
+
+/* End of Footer */
+
+/* Responsive */
+
+@media (max-width: 767px) {
+	header.container nav > ul.nav > li > ul.dropdown-menu {
+		position: relative;
+		width: 100%;
+		margin: 0;
+	}
+}
+
+/* End of Responsive */
