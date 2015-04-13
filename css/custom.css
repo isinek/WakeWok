@@ -220,33 +220,26 @@ article.content table#registration-form button{
 
 /* Jelovnik.html */
 
-article.content table.menu-table {
+article.content div.menu-table-header {
+	vertical-align: middle;
 	width: 90%;
 	margin: 0 auto 15px;
 	max-width: 400px;
 }
 
-article.content table.menu-table thead th {
-	vertical-align: middle;
-}
-
-article.content table.menu-table thead h2 {
+article.content div.menu-table-header h2 {
 	margin-bottom: 0;
 }
 
-article.content table.menu-table thead th:last-of-type {
-	width: 45%;
-	text-align: right;
+article.content div.menu-table-header img {
+	max-width: 45%;
+	float: right;
 }
 
-article.content table.menu-table thead img {
-	max-width: 100%;
-}
-
-article.content table.menu-table thead:after {
-	content: '';
-	display: block;
-	height: 15px;
+article.content table.menu-table {
+	width: 90%;
+	margin: 0 auto 15px;
+	max-width: 400px;
 }
 
 article.content table.menu-table tbody {
@@ -273,6 +266,7 @@ article.content table.menu-table tbody td {
 
 article.content table.menu-table tbody td:last-of-type {
 	text-align: right;
+	width: 50px;
 }
 
 /* End of Jelovnik.html */
